@@ -13,7 +13,7 @@ import { Link, scroller } from "react-scroll";
 const Introduction = () => {
   const scrollToContactUs = (offset) => {
     scroller.scrollTo("Contact", {
-      duration: 700,
+      duration: 100,
       delay: 0,
       smooth: "easeInOutQuart",
       offset: offset,
@@ -102,7 +102,7 @@ const Introduction = () => {
                   { bgcolor: "white" },
                   {
                     "&:hover": {
-                      color: "buttons.whitetext",
+                      color: "buttons.contrastText",
                       bgcolor: "buttons.main",
                     },
                   },
@@ -110,14 +110,8 @@ const Introduction = () => {
                 onClick={() => scrollToContactUs(-100)}
               >
                 <Typography variant="buttons" noWrap>
-                  <Link
-                    to="Contact"
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                  >
+                
                     Let's Connect
-                  </Link>
                 </Typography>
               </Button>
             </Container>

@@ -7,8 +7,7 @@ const NavElement = (props) => {
       to={props.label}
       smooth={true}
       offset={-100}
-      duration={500}
-      onClick={() => props.setIsOpen(false)}
+      duration={100}
     >
       <Typography variant={props.variant} color={props.textColour} noWrap>
         {props.label}
