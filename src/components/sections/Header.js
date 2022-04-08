@@ -9,7 +9,6 @@ import {Link, scroller } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, NavbarBrand, Collapse, Nav, NavbarToggler } from "reactstrap";
 
-import NavElement from "../elements/NavElement";
 
 export default function Header() {
   const scrollTo = (offset, index) => {
