@@ -22,12 +22,14 @@ const theme = createTheme({
 
     testimonials: {
       main: "#C6F199",
-      whitetext: "#ffffff",
+      contrastText: "#ffffff",
     },
 
     buttons: {
       main: "#2e7d32",
-      whitetext: "#ffffff",
+      contrastText: "#ffffff",
+      fontFamily: "Open Sans",
+      fontSize: 19,
     },
 
     footer: {

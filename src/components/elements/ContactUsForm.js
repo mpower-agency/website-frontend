@@ -121,7 +121,7 @@ const ContactUsForm = () => {
           <Typography
             variant="buttons"
             component="h2"
-            color="buttons.whitetext"
+            color="buttons.contrastText"
             noWrap
           >
             {disabled ? "Submitting..." : "Submit"}

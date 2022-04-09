@@ -60,7 +60,7 @@ function Footer() {
                     color="white"
                   >
                     Eqaim is a tech service company with a vision to bring your
-                    bold ideas into existence.
+                    bold ideas into reality.
                   </Typography>
                   <Typography
                     variant="h5"

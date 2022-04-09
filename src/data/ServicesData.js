@@ -9,7 +9,7 @@ const servicesData = [
       "Amazon RDS",
       "AWS Lambda",
     ],
-    description:"AWS Cloud Services to build backend architecture"
+    description:"Increase your impact through our scalable AWS cloud solutions. "
   },
   { number:2,
     title: "Data Science",
@@ -20,7 +20,7 @@ const servicesData = [
       "NLP",
       "Deep Learning"
     ],
-  description:"Improving your business processes through AI."
+  description:"Make your business processes efficient through our Machine Learning services."
   },
   {  number:3,
       title: "Web Development",
@@ -31,7 +31,7 @@ const servicesData = [
       "Node JS",
       "AWS",
     ],
-    description:"Support for cloud computing pioneer AWS."
+    description:"Take your business online through our full stack web development services."
 
   },
 ];
