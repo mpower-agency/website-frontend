@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import theme from "../../theme";
@@ -6,7 +6,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import { Grid } from "@mui/material";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import { Link, scroller } from "react-scroll";
+import { scroller } from "react-scroll";
 
 const Introduction = () => {
   const scrollToContactUs = (offset) => {
@@ -65,7 +65,7 @@ const Introduction = () => {
             >
               <Typography
                 component="h1"
-                variant="title"
+                variant="h1"
                 align="left"
                 color={theme.palette.primary.main}
                 gutterBottom
@@ -73,7 +73,7 @@ const Introduction = () => {
                 Ideas to Reality
               </Typography>
               <Typography
-                variant="h4"
+                variant="text"
                 align="left"
                 color="secondary.contrastText"
                 component="p"
@@ -97,7 +97,7 @@ const Introduction = () => {
                     },
                   },
                 ]}
-                onClick={() => scrollToContactUs(-100)}
+                onClick={() => scrollToContactUs(-50)}
               >
                 <Typography variant="buttons" noWrap>
                   Let's Connect

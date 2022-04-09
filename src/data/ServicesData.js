@@ -5,7 +5,7 @@ const servicesData = [
     image: require("../assets/icons/web.png"),
     skills: ["React", "Angular", "Node JS", "AWS"],
     description:
-      "Take your business online through our full stack web development services.",
+      "Take your business online through full stack web development services.",
   },
   {
     number: 2,
@@ -13,7 +13,7 @@ const servicesData = [
     image: require("../assets/icons/cloud.png"),
     skills: ["AWS Api Gateway", "Dynamo DB", "Amazon RDS", "AWS Lambda"],
     description:
-      "Increase your impact through our scalable AWS cloud solutions. ",
+      "Increase your impact through scalable AWS cloud solutions. ",
   },
   {
     number: 3,
@@ -21,7 +21,7 @@ const servicesData = [
     image: require("../assets/icons/neural.png"),
     skills: ["Computer Vision", "NLP", "Deep Learning"],
     description:
-      "Make your business processes efficient through our Machine Learning services.",
+      "Make your business processes efficient through Machine Learning services.",
   },
 ];
 export default servicesData;

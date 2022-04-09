@@ -1,6 +1,5 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
-import Paper from "@mui/material/Paper";
 import { ThemeProvider } from "@emotion/react";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
@@ -31,16 +30,16 @@ const ContactUs = () => {
                   <Typography
                     color={theme.palette.primary.main}
                     component="h1"
-                    variant="title"
+                    variant="h1"
                   >
                     Contact Us
                   </Typography>
                 </Box>
                 <Box paddingRight={2}>
-                  <Typography variant="h4" component="h4" color="black">
+                  <Typography variant="text" component="h4" color="black">
                     You have questions and want to discuss?
                   </Typography>
-                  <Typography variant="h4" component="h4" color="black">
+                  <Typography variant="text" component="h4" color="black">
                     We’d love to hear from you!
                   </Typography>
                 </Box>

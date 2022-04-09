@@ -19,14 +19,8 @@ const theme = createTheme({
     h1: {
       fontFamily: "Open Sans",
       fontSize: 35,
+      fontWeight: "bold",
     },
-
-    title: {
-      fontFamily: "Lato",
-      fontSize: 35,
-      fontWeight: 600,
-    },
-
     h2: {
       fontFamily: "Open Sans",
       fontSize: 32,
@@ -38,40 +32,24 @@ const theme = createTheme({
     },
 
     h4: {
-      fontFamily: "Montserrat",
-      fontSize: 20,
-    },
-
-    h5: {
-      fontFamily: "Montserrat",
-      fontSize: 18,
-    },
-
-    navbar: {
       fontFamily: "Open Sans",
       fontSize: 18,
-      fontWeight: 500,
+    },
+
+    text: {
+      fontFamily: "Montserrat",
+      fontSize: 20,
     },
 
     buttons: {
       fontFamily: "Open Sans",
       fontSize: 18,
-      fontWeight: 600,
-    },
-
-    cardtitle: {
-      fontFamily: "Open Sans",
-      fontSize: 32,
+      fontWeight: "bold",
     },
 
     name: {
       fontFamily: "Open Sans",
       fontSize: 23,
-    },
-
-    nameSub: {
-      fontFamily: "Open Sans",
-      fontSize: 17,
     },
   },
 });

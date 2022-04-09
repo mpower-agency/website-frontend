@@ -43,7 +43,7 @@ const TestimonialCard = (props) => {
           {data.testimonial}
         </Typography>
         <Typography
-          variant="h5"
+          variant="h4"
           color="text.secondary"
           component="h6"
           align="left"

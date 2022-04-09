@@ -55,7 +55,7 @@ function Footer() {
                   </Button>
 
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     gutterBottom
                     sx={{ fontWeight: "medium" }}
@@ -65,7 +65,7 @@ function Footer() {
                     bold ideas into reality.
                   </Typography>
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     sx={{ fontWeight: "medium" }}
                     color="white"
@@ -88,7 +88,7 @@ function Footer() {
                   </Typography>
 
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     color="white"
                     sx={{ fontWeight: "medium" }}
@@ -97,7 +97,7 @@ function Footer() {
                   </Typography>
                   <Typography
                     gutterBottom
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     color="white"
                     sx={{ fontWeight: "medium" }}

@@ -36,7 +36,8 @@ export default function Header() {
               { my: 1, mx: 1 },
               { bgcolor: "primary.main" },
               { color: "primary.contrastText" },
-              { typography: "navbar" },
+              { typography: "buttons" },
+              {},
               {
                 "&:hover": {
                   color: "primary.contrastText",
@@ -61,7 +62,7 @@ export default function Header() {
         return (
           <MuiLink
             key={index}
-            variant="navbar"
+            variant="buttons"
             sx={{
               mx: 1.5,
               my: { xs: 0, md: 1.5 },
@@ -71,6 +72,7 @@ export default function Header() {
             }}
             component="button"
             underline="hover"
+            fontWeight="normal"
             color={element.textColour}
             noWrap
           >

@@ -23,7 +23,7 @@ const Services = () => {
         >
           <Typography
             component="h1"
-            variant="title"
+            variant="h1"
             align="center"
             color={theme.palette.primary.main}
             sx={{ pb: 3 }}
