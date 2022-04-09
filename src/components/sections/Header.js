@@ -13,7 +13,7 @@ import { Navbar, NavbarBrand, Collapse, Nav, NavbarToggler } from "reactstrap";
 export default function Header() {
   const scrollTo = (offset, index) => {
     scroller.scrollTo(index, {
-      duration: 100,
+      duration: 200,
       delay: 0,
       smooth: "easeInOutQuart",
       offset: offset,

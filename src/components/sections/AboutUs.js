@@ -30,9 +30,9 @@ const Services = () => {
           </Typography>
 
           <Typography variant="h4" align="center">
-            We at Eqaim focus on developing solutions for customers across the
-            globe. We help startups in their early age looking for tech support
-            so that they can focus on core business and leave tech problems to
+            We at Eqaim focus on developing tech solutions for customers across the
+            globe. We help startups and businesses in early stage looking for tech support
+            so that they can focus on core business and leave their tech problems to
             us.
           </Typography>
           <Grid
