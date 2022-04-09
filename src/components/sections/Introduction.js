@@ -50,9 +50,8 @@ const Introduction = () => {
                 maxHeight: { xs: 350, md: 350 },
                 maxWidth: { xs: 350, md: 350 },
                 mx: 3,
-                boxShadow: 2,
               }}
-              alt="IntroImage"
+              alt="startup"
               src={require("../../assets/images/Idea.jpg")}
             />
           </Grid>
