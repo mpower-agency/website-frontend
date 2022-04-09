@@ -88,7 +88,9 @@ export default function Header() {
       <div>
         <Navbar color="white" expand="md" light fixed="top" className="pb-1">
           <NavbarBrand onClick={() => scrollTo(-100, "Home")}>
-            <img src={BrandLogo} className="align-top" alt="eqaim" />
+            <Button variant="text">
+              <img src={BrandLogo} className="align-top" alt="eqaim" />
+            </Button>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse
