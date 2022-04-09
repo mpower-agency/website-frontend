@@ -16,7 +16,7 @@ const TestimonialCard = (props) => {
         marginX: 5,
         marginBottom: 1,
         boxShadow: 5,
-        bgcolor: "testimonials.main",
+        bgcolor: "secondary.main",
         borderRadius: 10,
       }}
     >

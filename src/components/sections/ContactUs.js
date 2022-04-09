@@ -29,7 +29,7 @@ const ContactUs = () => {
               <Box>
                 <Box>
                   <Typography
-                    color={theme.palette.title.main}
+                    color={theme.palette.primary.main}
                     component="h1"
                     variant="title"
                   >

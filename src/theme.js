@@ -3,33 +3,13 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      light: "#60ad5e",
       main: "#2e7d32",
-      dark: "#005005",
       contrastText: "#ffffff",
     },
     secondary: {
-      light: "#ffffce",
-      main: "#e6ee9c",
-      dark: "#b3bc6d",
-      contrastText: "#000000",
-      background: "#FFE67C",
-    },
-
-    title: {
-      main: "#2e7d32",
-    },
-
-    testimonials: {
       main: "#C6F199",
-      whitetext: "#ffffff",
+      contrastText: "#000000",
     },
-
-    buttons: {
-      main: "#2e7d32",
-      whitetext: "#ffffff",
-    },
-
     footer: {
       main: "#1a2722",
       contrastText: "#ffffff",
@@ -78,7 +58,6 @@ const theme = createTheme({
       fontSize: 18,
       fontWeight: 600,
     },
-
 
     cardtitle: {
       fontFamily: "Open Sans",

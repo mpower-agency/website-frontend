@@ -35,11 +35,11 @@ export default function Header() {
               { boxShadow: 2 },
               { textTransform: "capitalize" },
               { my: 1, mx: 1 },
-              { bgcolor: "buttons.main" },
+              { bgcolor: "primary.main" },
               {
                 "&:hover": {
                   color: "primary.contrastText",
-                  bgcolor: "buttons.main",
+                  bgcolor: "primary.main",
                   boxShadow: 2,
                 },
               },
@@ -49,7 +49,7 @@ export default function Header() {
             <NavElement
               key={index}
               label={element.label}
-              textColour="buttons.whitetext"
+              textColour="primary.contrastText"
               variant="buttons"
               setIsOpen={setIsOpen}
             />

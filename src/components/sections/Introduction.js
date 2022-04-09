@@ -37,7 +37,7 @@ const Introduction = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "testimonials.main",
+          backgroundColor: "secondary.main",
           elevation: 0,
           square: true,
           pt: 16,
@@ -77,7 +77,7 @@ const Introduction = () => {
                 component="h1"
                 variant="title"
                 align="left"
-                color={theme.palette.title.main}
+                color={theme.palette.primary.main}
                 gutterBottom
               >
                 Ideas to Reality
@@ -103,8 +103,8 @@ const Introduction = () => {
                   { bgcolor: "white" },
                   {
                     "&:hover": {
-                      color: "buttons.whitetext",
-                      bgcolor: "buttons.main",
+                      color: "primary.contrastText",
+                      bgcolor: "primary.main",
                     },
                   },
                 ]}

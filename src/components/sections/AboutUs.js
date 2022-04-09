@@ -24,7 +24,7 @@ const Services = () => {
             component="h1"
             variant="title"
             align="center"
-            color={theme.palette.title.main}
+            color={theme.palette.primary.main}
             sx={{ pb: 3 }}
           >
             About Us
