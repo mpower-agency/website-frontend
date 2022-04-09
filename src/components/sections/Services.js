@@ -18,14 +18,15 @@ const Services = () => {
             display: "flex",
             flexDirection: "column",
             square: true,
+            pt: 6,
           }}
         >
           <Typography
             component="h1"
-            variant="title"
+            variant="h1"
             align="center"
-            color={theme.palette.title.main}
-            sx={{ p: 6 }}
+            color={theme.palette.primary.main}
+            sx={{ pb: 3 }}
           >
             Services
           </Typography>
@@ -35,12 +36,16 @@ const Services = () => {
             alignItems="center"
             justifyContent="center"
             spacing={12}
-            sx={{ pb: 12 }}
           >
             {ServicesData.map((service, index) => (
-              <ServiceCard key={index} title={service.title} image={service.image} description={service.description} skills={service.skills} />
-            ))
-            }
+              <ServiceCard
+                key={index}
+                title={service.title}
+                image={service.image}
+                description={service.description}
+                skills={service.skills}
+              />
+            ))}
           </Grid>
         </Container>
       </ThemeProvider>

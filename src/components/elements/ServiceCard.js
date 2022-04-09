@@ -41,9 +41,9 @@ const ServiceCard = (props) => {
             >
               <Typography
                 component="h3"
-                variant="cardtitle"
+                variant="h2"
                 align="left"
-                sx={{ fontWeight: "bold" }}
+                sx={{ fontWeight: "bold", px: 1 }}
               >
                 {props.title}
               </Typography>
@@ -78,7 +78,7 @@ const ServiceCard = (props) => {
               }}
             >
               <Grid item sx={{ pb: 3 }}>
-                <Typography component="h5" variant="h5" align="center">
+                <Typography component="h5" variant="text" align="center">
                   {props.description}
                 </Typography>
               </Grid>

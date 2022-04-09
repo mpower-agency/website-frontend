@@ -27,7 +27,7 @@ const FooterLinks = () => {
             <List key={index}>
               <ListItem disablePadding>
                 <MuiLink
-                  variant="navbar"
+                  variant="buttons"
                   sx={[
                     {
                       fontWeight: "medium",
@@ -38,7 +38,7 @@ const FooterLinks = () => {
                   underline="hover"
                   key={label}
                 >
-                  <Link to={label} smooth={true} offset={-100} duration={500}>
+                  <Link to={label} smooth={true} offset={-50} duration={500}>
                     {label}
                   </Link>
                 </MuiLink>

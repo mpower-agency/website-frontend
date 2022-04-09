@@ -9,7 +9,7 @@ import FooterIcons from "../elements/FooterIcons";
 import FooterLinks from "../elements/FooterLinks";
 import BrandLogo from "../../assets/images/brand-white.svg";
 import { scroller } from "react-scroll";
-import { Paper } from "@mui/material";
+import { Paper, Button } from "@mui/material";
 
 const scrollTo = (offset, index) => {
   scroller.scrollTo(index, {
@@ -45,25 +45,27 @@ function Footer() {
             >
               <Grid item xs={12} md={4}>
                 <Box sx={{ width: 350, margin: "auto", px: 5 }}>
-                  <img
-                    src={BrandLogo}
-                    className="align-top"
-                    alt="eqaim"
-                    onClick={() => scrollTo(-100, "Home")}
-                  />
+                  <Button variant="text" sx={{ p: 0 }}>
+                    <img
+                      src={BrandLogo}
+                      className="align-top"
+                      alt="eqaim"
+                      onClick={() => scrollTo(-100, "Home")}
+                    />
+                  </Button>
 
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     gutterBottom
                     sx={{ fontWeight: "medium" }}
                     color="white"
                   >
                     Eqaim is a tech service company with a vision to bring your
-                    bold ideas into existence.
+                    bold ideas into reality.
                   </Typography>
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     sx={{ fontWeight: "medium" }}
                     color="white"
@@ -86,16 +88,16 @@ function Footer() {
                   </Typography>
 
                   <Typography
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     color="white"
                     sx={{ fontWeight: "medium" }}
                   >
-                    eqaim.admin@gmail.com
+                    contact.eqaim@gmail.com
                   </Typography>
                   <Typography
                     gutterBottom
-                    variant="h5"
+                    variant="h4"
                     component="h5"
                     color="white"
                     sx={{ fontWeight: "medium" }}

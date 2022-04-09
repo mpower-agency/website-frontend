@@ -1,33 +1,22 @@
-import React, { useState } from "react";
+import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import theme from "../../theme";
 import { ThemeProvider } from "@mui/material/styles";
 import { Grid } from "@mui/material";
-import introdullimg from "../../assets/images/Introdull.svg";
-import introcolorimg from "../../assets/images/Introcolor.svg";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import { Link, scroller } from "react-scroll";
+import { scroller } from "react-scroll";
 
 const Introduction = () => {
   const scrollToContactUs = (offset) => {
     scroller.scrollTo("Contact", {
-      duration: 700,
+      duration: 200,
       delay: 0,
       smooth: "easeInOutQuart",
       offset: offset,
     });
   };
-  const [imgSrc, setImgSrc] = useState(introdullimg);
-
-  const mouseOver = React.useCallback(() => {
-    setImgSrc(introcolorimg);
-  }, []);
-
-  const mouseOut = React.useCallback(() => {
-    setImgSrc(introdullimg);
-  }, []);
 
   return (
     <ThemeProvider theme={theme}>
@@ -37,9 +26,11 @@ const Introduction = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
-          backgroundColor: "testimonials.main",
+          backgroundColor: "secondary.main",
           elevation: 0,
           square: true,
+          pt: 16,
+          pb: 3,
         }}
       >
         <Grid
@@ -49,7 +40,6 @@ const Introduction = () => {
           alignItems="center"
           wrap="wrap"
           spacing={10}
-          sx={{ pt: 16, pb: 8 }}
         >
           <Grid item>
             <Box
@@ -59,10 +49,11 @@ const Introduction = () => {
                 width: "100%",
                 maxHeight: { xs: 350, md: 350 },
                 maxWidth: { xs: 350, md: 350 },
-                px: 3,
+                mx: 3,
+                boxShadow: 2,
               }}
               alt="IntroImage"
-              src={introcolorimg}
+              src={require("../../assets/images/Idea.jpg")}
             />
           </Grid>
           <Grid item>
@@ -74,22 +65,21 @@ const Introduction = () => {
             >
               <Typography
                 component="h1"
-                variant="title"
+                variant="h1"
                 align="left"
-                color={theme.palette.title.main}
+                color={theme.palette.primary.main}
                 gutterBottom
               >
                 Ideas to Reality
               </Typography>
               <Typography
-                variant="h4"
+                variant="text"
                 align="left"
                 color="secondary.contrastText"
                 component="p"
               >
-                Eqaim helps in translating your ideas into reality with the best
-                in class talent pool. We help start-ups and businesses to focus
-                on business and leave their tech problems for us.
+                Eqaim helps start-ups and businesses in translating your ideas
+                into reality by providing modern tech solutions.
               </Typography>
 
               <Button
@@ -102,22 +92,15 @@ const Introduction = () => {
                   { bgcolor: "white" },
                   {
                     "&:hover": {
-                      color: "buttons.whitetext",
-                      bgcolor: "buttons.main",
+                      color: "primary.contrastText",
+                      bgcolor: "primary.main",
                     },
                   },
                 ]}
-                onClick={() => scrollToContactUs(-100)}
+                onClick={() => scrollToContactUs(-50)}
               >
                 <Typography variant="buttons" noWrap>
-                  <Link
-                    to="Contact"
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                  >
-                    Let's Connect
-                  </Link>
+                  Let's Connect
                 </Typography>
               </Button>
             </Container>

@@ -16,7 +16,7 @@ const TestimonialCard = (props) => {
         marginX: 5,
         marginBottom: 1,
         boxShadow: 5,
-        bgcolor: "testimonials.main",
+        bgcolor: "secondary.main",
         borderRadius: 10,
       }}
     >
@@ -43,7 +43,7 @@ const TestimonialCard = (props) => {
           {data.testimonial}
         </Typography>
         <Typography
-          variant="h5"
+          variant="h4"
           color="text.secondary"
           component="h6"
           align="left"
