@@ -17,23 +17,24 @@ const Services = () => {
             display: "flex",
             flexDirection: "column",
             square: true,
+            pt: 8,
           }}
         >
           <Typography
             component="h1"
-            variant="title"
+            variant="h1"
             align="center"
-            color={theme.palette.title.main}
-            sx={{ pt: 6, pb: 3 }}
+            color={theme.palette.primary.main}
+            sx={{ pb: 3 }}
           >
             About Us
           </Typography>
 
-          <Typography variant="h4" align="center">
-            We at Eqaim focus on developing tech solutions for customers across the
-            globe. We help startups and businesses in early stage looking for tech support
-            so that they can focus on core business and leave their tech problems to
-            us.
+          <Typography variant="text" align="center">
+            We at Eqaim focus on developing tech solutions for customers across
+            the globe. We help startups and businesses in early stage looking
+            for tech support so that they can focus on core business and leave
+            their tech problems to us.
           </Typography>
           <Grid
             container
@@ -41,7 +42,7 @@ const Services = () => {
             alignItems="center"
             justifyContent="center"
             spacing={12}
-            sx={{ pb: 12, pt: 6 }}
+            sx={{ pt: 6 }}
           >
             {AboutUsData.map((profile, index) => (
               <AboutUsCard

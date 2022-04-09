@@ -5,10 +5,9 @@ import theme from "../../theme";
 import Button from "@mui/material/Button";
 import HeadersData from "../../data/HeadersData";
 import BrandLogo from "../../assets/images/brand.svg";
-import {Link, scroller } from "react-scroll";
+import { Link, scroller } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, NavbarBrand, Collapse, Nav, NavbarToggler } from "reactstrap";
-
 
 export default function Header() {
   const scrollTo = (offset, index) => {
@@ -35,35 +34,35 @@ export default function Header() {
               { boxShadow: 2 },
               { textTransform: "capitalize" },
               { my: 1, mx: 1 },
-              { bgcolor: "buttons.main" },
-              {color: "buttons.contrastText"},
-              { typography:"navbar"},
+              { bgcolor: "primary.main" },
+              { color: "primary.contrastText" },
+              { typography: "buttons" },
+              {},
               {
                 "&:hover": {
                   color: "primary.contrastText",
-                  bgcolor: "buttons.main",
+                  bgcolor: "primary.main",
                   boxShadow: 2,
                 },
               },
             ]}
-            onClick={() => scrollTo(-100, element.label)}
           >
-           <Link
-            to={element.label}
-            smooth={true}
-            offset={-100}
-            duration={100}
-            onClick={() => setIsOpen(false)}
-          >
+            <Link
+              to={element.label}
+              smooth={true}
+              offset={-50}
+              duration={100}
+              onClick={() => setIsOpen(false)}
+            >
               {element.label}
-          </Link>
+            </Link>
           </Button>
         );
       } else {
         return (
           <MuiLink
             key={index}
-           variant="navbar"
+            variant="buttons"
             sx={{
               mx: 1.5,
               my: { xs: 0, md: 1.5 },
@@ -73,19 +72,19 @@ export default function Header() {
             }}
             component="button"
             underline="hover"
-           
-            color={element.textColour} 
+            fontWeight="normal"
+            color={element.textColour}
             noWrap
           >
             <Link
-            to={element.label}
-            smooth={true}
-            offset={-100}
-            duration={100}
-            onClick={() => setIsOpen(false)}
-          >
+              to={element.label}
+              smooth={true}
+              offset={-50}
+              duration={100}
+              onClick={() => setIsOpen(false)}
+            >
               {element.label}
-          </Link>
+            </Link>
           </MuiLink>
         );
       }
@@ -97,7 +96,9 @@ export default function Header() {
       <div>
         <Navbar color="white" expand="md" light fixed="top" className="pb-1">
           <NavbarBrand onClick={() => scrollTo(-100, "Home")}>
-            <img src={BrandLogo} className="align-top" alt="eqaim" />
+            <Button variant="text">
+              <img src={BrandLogo} className="align-top" alt="eqaim" />
+            </Button>
           </NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse

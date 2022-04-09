@@ -3,35 +3,13 @@ import { createTheme } from "@mui/material/styles";
 const theme = createTheme({
   palette: {
     primary: {
-      light: "#60ad5e",
       main: "#2e7d32",
-      dark: "#005005",
       contrastText: "#ffffff",
     },
     secondary: {
-      light: "#ffffce",
-      main: "#e6ee9c",
-      dark: "#b3bc6d",
-      contrastText: "#000000",
-      background: "#FFE67C",
-    },
-
-    title: {
-      main: "#2e7d32",
-    },
-
-    testimonials: {
       main: "#C6F199",
-      contrastText: "#ffffff",
+      contrastText: "#000000",
     },
-
-    buttons: {
-      main: "#2e7d32",
-      contrastText: "#ffffff",
-      fontFamily: "Open Sans",
-      fontSize: 19,
-    },
-
     footer: {
       main: "#1a2722",
       contrastText: "#ffffff",
@@ -40,61 +18,38 @@ const theme = createTheme({
   typography: {
     h1: {
       fontFamily: "Open Sans",
-      fontSize: 40,
+      fontSize: 35,
+      fontWeight: "bold",
     },
-
-    title: {
-      fontFamily: "Lato",
-      fontSize: 40,
-      fontWeight: 600,
-    },
-
     h2: {
       fontFamily: "Open Sans",
-      fontSize: 35,
+      fontSize: 32,
     },
 
     h3: {
       fontFamily: "Open Sans",
-      fontSize: 26,
+      fontSize: 25,
     },
 
     h4: {
-      fontFamily: "Montserrat",
-      fontSize: 20,
-    },
-
-    h5: {
-      fontFamily: "Montserrat",
+      fontFamily: "Open Sans",
       fontSize: 18,
     },
 
-    navbar: {
-      fontFamily: "Open Sans",
-      fontSize: 19,
-      fontWeight: 500,
+    text: {
+      fontFamily: "Montserrat",
+      fontSize: 20,
     },
 
     buttons: {
       fontFamily: "Open Sans",
       fontSize: 18,
-      fontWeight: 600,
-    },
-
-
-    cardtitle: {
-      fontFamily: "Open Sans",
-      fontSize: 32,
+      fontWeight: "bold",
     },
 
     name: {
       fontFamily: "Open Sans",
       fontSize: 23,
-    },
-
-    nameSub: {
-      fontFamily: "Open Sans",
-      fontSize: 17,
     },
   },
 });

@@ -110,10 +110,10 @@ const ContactUsForm = () => {
             mt: 3,
             mb: 2,
             marginX: { xs: 1, md: 10, lg: 20 },
-            bgcolor: "buttons.main",
+            bgcolor: "primary.main",
             "&:hover": {
               color: "primary.contrastText",
-              bgcolor: "buttons.main",
+              bgcolor: "primary.main",
               boxShadow: 2,
             },
           }}
@@ -121,7 +121,7 @@ const ContactUsForm = () => {
           <Typography
             variant="buttons"
             component="h2"
-            color="buttons.contrastText"
+            color="primary.contrastText"
             noWrap
           >
             {disabled ? "Submitting..." : "Submit"}
