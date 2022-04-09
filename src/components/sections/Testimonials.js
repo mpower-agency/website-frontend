@@ -8,7 +8,7 @@ const Testimonials = () => {
   return (
     <React.Fragment>
       <ThemeProvider theme={theme}>
-        <Container fixed id="Testimonials">
+        <Container fixed id="Testimonials" sx={{ pt: 8 }}>
           <TestimonialSlider />
         </Container>
       </ThemeProvider>

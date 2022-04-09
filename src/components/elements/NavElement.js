@@ -6,7 +6,7 @@ const NavElement = (props) => {
     <Link
       to={props.label}
       smooth={true}
-      offset={-100}
+      offset={-50}
       duration={500}
       onClick={() => props.setIsOpen(false)}
     >

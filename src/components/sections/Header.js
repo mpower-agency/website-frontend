@@ -44,7 +44,7 @@ export default function Header() {
                 },
               },
             ]}
-            onClick={() => scrollTo(-100, element.label)}
+            onClick={() => scrollTo(-30, element.label)}
           >
             <NavElement
               key={index}

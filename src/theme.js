@@ -38,23 +38,23 @@ const theme = createTheme({
   typography: {
     h1: {
       fontFamily: "Open Sans",
-      fontSize: 40,
+      fontSize: 35,
     },
 
     title: {
       fontFamily: "Lato",
-      fontSize: 40,
+      fontSize: 35,
       fontWeight: 600,
     },
 
     h2: {
       fontFamily: "Open Sans",
-      fontSize: 35,
+      fontSize: 32,
     },
 
     h3: {
       fontFamily: "Open Sans",
-      fontSize: 26,
+      fontSize: 25,
     },
 
     h4: {
@@ -69,7 +69,7 @@ const theme = createTheme({
 
     navbar: {
       fontFamily: "Open Sans",
-      fontSize: 19,
+      fontSize: 18,
       fontWeight: 500,
     },
 

@@ -17,6 +17,7 @@ const Services = () => {
             display: "flex",
             flexDirection: "column",
             square: true,
+            pt: 8,
           }}
         >
           <Typography
@@ -24,7 +25,7 @@ const Services = () => {
             variant="title"
             align="center"
             color={theme.palette.title.main}
-            sx={{ pt: 6, pb: 3 }}
+            sx={{ pb: 3 }}
           >
             About Us
           </Typography>
@@ -41,7 +42,7 @@ const Services = () => {
             alignItems="center"
             justifyContent="center"
             spacing={12}
-            sx={{ pb: 12, pt: 6 }}
+            sx={{ pt: 6 }}
           >
             {AboutUsData.map((profile, index) => (
               <AboutUsCard

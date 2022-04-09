@@ -40,6 +40,8 @@ const Introduction = () => {
           backgroundColor: "testimonials.main",
           elevation: 0,
           square: true,
+          pt: 16,
+          pb: 3,
         }}
       >
         <Grid
@@ -49,7 +51,6 @@ const Introduction = () => {
           alignItems="center"
           wrap="wrap"
           spacing={10}
-          sx={{ pt: 16, pb: 8 }}
         >
           <Grid item>
             <Box
@@ -110,12 +111,7 @@ const Introduction = () => {
                 onClick={() => scrollToContactUs(-100)}
               >
                 <Typography variant="buttons" noWrap>
-                  <Link
-                    to="Contact"
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                  >
+                  <Link to="Contact" smooth={true} offset={-30} duration={500}>
                     Let's Connect
                   </Link>
                 </Typography>
