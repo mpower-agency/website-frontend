@@ -1,31 +1,30 @@
 {
   "files": {
     "main.css": "/website-frontend/static/css/main.fd562c0d.css",
-    "main.js": "/website-frontend/static/js/main.9f1abb87.js",
+    "main.js": "/website-frontend/static/js/main.c0990f61.js",
     "static/js/787.eb3da103.chunk.js": "/website-frontend/static/js/787.eb3da103.chunk.js",
     "static/media/AmanPhoto.jpg": "/website-frontend/static/media/AmanPhoto.431d4f52e0bf910df7b0.jpg",
+    "static/media/Idea.jpg": "/website-frontend/static/media/Idea.5db65ca5aa362502d3f3.jpg",
     "static/media/Lush.jpg": "/website-frontend/static/media/Lush.1e174904771f6eacbaab.jpg",
     "static/media/BharatPhoto.jpg": "/website-frontend/static/media/BharatPhoto.fbe35d2200b7e6b6f2f5.jpg",
     "static/media/RaviPhoto.jpg": "/website-frontend/static/media/RaviPhoto.eec989e01c1f703f59f6.jpg",
     "static/media/Illustration2.png": "/website-frontend/static/media/Illustration2.8cbec80e0b4da6b9d381.png",
-    "static/media/Introcolor.svg": "/website-frontend/static/media/Introcolor.07caa3c444bd826f24c5245d2770bd31.svg",
-    "static/media/Introdull.svg": "/website-frontend/static/media/Introdull.34660c70c313b488315a1e88bacff978.svg",
     "static/media/neural.png": "/website-frontend/static/media/neural.7b99d58d639cc1eebca4.png",
     "static/media/cloud.png": "/website-frontend/static/media/cloud.a4eb8e220eea9b64346b.png",
     "static/media/web.png": "/website-frontend/static/media/web.7a4c05ffd4980a4cbafc.png",
     "static/media/brand-white.svg": "/website-frontend/static/media/brand-white.11b0c7939e147eb588952bea547705d9.svg",
-    "static/media/brand.svg": "/website-frontend/static/media/brand.87cfa0bc38e94927f5427aa6497ae46e.svg",
+    "static/media/brand.svg": "/website-frontend/static/media/brand.aa06b89a19971debb2d22a180289883c.svg",
     "static/media/slick.svg": "/website-frontend/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/website-frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/website-frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/website-frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/website-frontend/index.html",
     "main.fd562c0d.css.map": "/website-frontend/static/css/main.fd562c0d.css.map",
-    "main.9f1abb87.js.map": "/website-frontend/static/js/main.9f1abb87.js.map",
+    "main.c0990f61.js.map": "/website-frontend/static/js/main.c0990f61.js.map",
     "787.eb3da103.chunk.js.map": "/website-frontend/static/js/787.eb3da103.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd562c0d.css",
-    "static/js/main.9f1abb87.js"
+    "static/js/main.c0990f61.js"
   ]
 }
