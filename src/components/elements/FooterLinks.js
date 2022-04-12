@@ -4,8 +4,6 @@ import Typography from "@mui/material/Typography";
 import theme from "../../theme";
 import { ThemeProvider } from "@mui/material/styles";
 import HeadersData from "../../data/HeadersData";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
 import { Link as MuiLink } from "@mui/material";
 import { Link } from "react-scroll";
 import Grid from "@mui/material/Grid";
@@ -15,7 +13,7 @@ const FooterLinks = () => {
     <ThemeProvider theme={theme}>
       <Box sx={{ width: 350, px: 5,pt: 2, margin: "auto" }}>
         <Typography
-          variant="text1"
+          variant="text2"
           align="left"
           component="h4"
           gutterBottom
@@ -29,7 +27,7 @@ const FooterLinks = () => {
             <Grid item key={index}>
              
                 <MuiLink
-                  variant="text2"
+                  variant="sub"
                   sx={[
                     {
                       fontWeight: "medium",

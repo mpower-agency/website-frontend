@@ -78,7 +78,7 @@ const ServiceCard = (props) => {
               }}
             >
               <Grid item sx={{ pb: 2 }}>
-                <Typography component="h5" variant="text1" align="center" >
+                <Typography component="h5" variant="text2" align="center" >
                   {props.description}
                 </Typography>
               </Grid>

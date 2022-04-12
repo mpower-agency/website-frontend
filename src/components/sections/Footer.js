@@ -56,7 +56,7 @@ function Footer() {
                   </Button>
 
                   <Typography
-                    variant="text2"
+                    variant="sub"
                     component="h5"
                     gutterBottom
                     sx={{ fontWeight: "medium" }}
@@ -66,7 +66,7 @@ function Footer() {
                     bold ideas into reality.
                   </Typography>
                   <Typography
-                    variant="text2"
+                    variant="sub"
                     component="h5"
                     sx={{ fontWeight: "medium" }}
                     color="white"
@@ -79,7 +79,7 @@ function Footer() {
               <Grid item xs={12} md={4}>
                 <Box sx={{ width: 350, py: 2, px: 5, margin: "auto" }}>
                   <Typography
-                    variant="text1"
+                    variant="text2"
                     align="left"
                     component="h4"
                     gutterBottom
@@ -90,7 +90,7 @@ function Footer() {
                   </Typography>
 
                   <Typography
-                    variant="text2"
+                    variant="sub"
                     component="h5"
                     color="white"
                     gutterBottom
@@ -99,7 +99,7 @@ function Footer() {
                   </Typography>
                   <Typography
                     gutterBottom
-                    variant="text2"
+                    variant="sub"
                     component="h5"
                     color="white"
                     
