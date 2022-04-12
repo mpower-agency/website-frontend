@@ -28,16 +28,15 @@ export default function Header() {
         return (
           <Button
             key={index}
-            variant="buttons"
+            variant="text2"
             sx={[
               { borderRadius: "6px" },
-              { boxShadow: 2 },
               { textTransform: "capitalize" },
-              { my: 1, mx: 1 },
+              { my: 1, mr: 3, ml:2.5 },
               { bgcolor: "primary.main" },
               { color: "primary.contrastText" },
-              { typography: "buttons" },
-              {},
+              { typography: "text2" },
+              {fontWeight: "bold" },
               {
                 "&:hover": {
                   color: "primary.contrastText",
@@ -46,6 +45,7 @@ export default function Header() {
                 },
               },
             ]}
+            onClick={() => scrollTo( -50,"Contact")}
           >
             <Link
               to={element.label}
@@ -62,13 +62,14 @@ export default function Header() {
         return (
           <MuiLink
             key={index}
-            variant="buttons"
+            variant="text2"
             sx={{
-              mx: 1.5,
+              mx: 2.5,
               my: { xs: 0, md: 1.5 },
               "&:hover": {
                 color: "primary.main",
               },
+              fontWeight: "bold"
             }}
             component="button"
             underline="hover"
@@ -96,7 +97,7 @@ export default function Header() {
       <div>
         <Navbar color="white" expand="md" light fixed="top" className="pb-1">
           <NavbarBrand onClick={() => scrollTo(-100, "Home")}>
-            <Button variant="text">
+            <Button variant="text" sx={{ml:3}}>
               <img src={BrandLogo} className="align-top" alt="eqaim" />
             </Button>
           </NavbarBrand>

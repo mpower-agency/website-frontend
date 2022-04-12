@@ -25,7 +25,7 @@ const ServiceCard = (props) => {
         >
           <div style={{ position: "relative" }}>
             <CardMedia
-              sx={{ width: "100%", height: 200 }}
+              sx={{ width: "100%", height: 180 }}
               component="img"
               image={ServiceGradImg}
               alt="CardImage"
@@ -77,8 +77,8 @@ const ServiceCard = (props) => {
                 justifyContent: "center",
               }}
             >
-              <Grid item sx={{ pb: 3 }}>
-                <Typography component="h5" variant="text" align="center">
+              <Grid item sx={{ pb: 2 }}>
+                <Typography component="h5" variant="text1" align="center" >
                   {props.description}
                 </Typography>
               </Grid>

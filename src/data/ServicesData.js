@@ -13,7 +13,7 @@ const servicesData = [
     image: require("../assets/icons/cloud.png"),
     skills: ["AWS Api Gateway", "Dynamo DB", "Amazon RDS", "AWS Lambda"],
     description:
-      "Increase your impact through scalable AWS cloud solutions. ",
+      "Increase your impact on customers through scalable AWS cloud solutions. ",
   },
   {
     number: 3,

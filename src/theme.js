@@ -18,7 +18,7 @@ const theme = createTheme({
   typography: {
     h1: {
       fontFamily: "Open Sans",
-      fontSize: 35,
+      fontSize: 34,
       fontWeight: "bold",
     },
     h2: {
@@ -26,31 +26,26 @@ const theme = createTheme({
       fontSize: 32,
     },
 
-    h3: {
-      fontFamily: "Open Sans",
-      fontSize: 25,
-    },
-
-    h4: {
-      fontFamily: "Open Sans",
-      fontSize: 18,
-    },
-
-    text: {
+    text1: {
       fontFamily: "Montserrat",
       fontSize: 20,
     },
 
-    buttons: {
+    text2: {
+      fontFamily: "Montserrat",
+      fontSize: 18,
+    },
+
+    text3: {
       fontFamily: "Open Sans",
       fontSize: 18,
       fontWeight: "bold",
     },
 
-    name: {
-      fontFamily: "Open Sans",
-      fontSize: 23,
-    },
+    sub:{
+      fontFamily: "Montserrat",
+      fontSize: 16,
+    }
   },
 });
 
