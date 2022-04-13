@@ -36,7 +36,7 @@ const AboutUsCard = (props) => {
             component="img"
             image={props.image}
             height="180"
-            alt="CardImage"
+            alt={props.name}
           />
           <CardContent
             sx={{

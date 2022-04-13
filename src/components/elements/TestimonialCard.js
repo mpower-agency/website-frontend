@@ -39,7 +39,7 @@ const TestimonialCard = (props) => {
           height: { xs: 120, sm: 150, lg: 180 },
         }}
       >
-        <Typography component="h3" variant="text1" sx={{fontWeight:"bold"}} marginBottom={1}>
+        <Typography component="h3" variant="text2" sx={{fontWeight:"medium"}} marginBottom={1}>
           {data.testimonial}
         </Typography>
         <Typography
@@ -47,6 +47,7 @@ const TestimonialCard = (props) => {
           color="text.secondary"
           component="h6"
           align="left"
+          sx={{fontWeight:"bold"}}
         >
           - {data.client}
         </Typography>
