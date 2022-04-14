@@ -14,7 +14,7 @@ const TestimonialCard = (props) => {
         flexDirection: { xs: "column", lg: "row" },
         alignItems: "center",
         padding: 3,
-        marginX: 5,
+        marginX: 1,
         marginBottom: 1,
         borderRadius: 10,
       }}
