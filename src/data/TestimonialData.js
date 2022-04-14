@@ -1,9 +1,10 @@
 const testimonialData = [
   {
     number: 1,
-    client: "PrimeLabs",
+    client: "Will Humphreys, CTO, Primelab (USA)",
     image: require("../assets/images/companyLogo.png"),
-    testimonial: "It was nice working with this team",
+    testimonial:
+      "The team was proactive in their service and helped us sail through ups and down in our journey. A long term partnership worthy team. I would highly recommend them for anyone building digital platform.",
   },
   {
     number: 2,
@@ -15,8 +16,7 @@ const testimonialData = [
     number: 3,
     client: "OtherClient",
     image: require("../assets/images/Illustration2.png"),
-    testimonial:
-      "He is extremely helpful and knowledgeable.",
+    testimonial: "He is extremely helpful and knowledgeable.",
   },
 ];
 export default testimonialData;
