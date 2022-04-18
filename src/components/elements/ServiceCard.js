@@ -25,7 +25,7 @@ const ServiceCard = (props) => {
         >
           <div style={{ position: "relative" }}>
             <CardMedia
-              sx={{ width: "100%", height: 180 }}
+              sx={{ width: "100%", height: 190 }}
               component="img"
               image={ServiceGradImg}
               alt="CardImage"

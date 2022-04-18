@@ -8,7 +8,7 @@ const TestimonialCard = (props) => {
   const data = props.data;
   return (
     <Card
-      variant
+      variant= ""
       sx={{
         display: "flex",
         flexDirection: { xs: "column", lg: "row" },
