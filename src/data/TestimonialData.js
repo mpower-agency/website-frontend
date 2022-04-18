@@ -8,13 +8,13 @@ const testimonialData = [
   },
   {
     number: 2,
-    client: "David Hutchkins",
+    client: "David Hutchkins, Upwork Client",
     image: require("../assets/icons/test_pic_2.png"),
     testimonial: "The Team was prompt, courteous and acted with great integrity from the start to end of the contract. It was a pleasure discussing matters with them and I would have no hesitation to work with them again in future.",
   },
   {
     number: 3,
-    client: "Karthikeya Reddy",
+    client: "Karthikeya Reddy, Upwork Client",
     image: require("../assets/icons/test_pic_3.png"),
     testimonial: "The Team did a good job on NLP task. They were flexible in discussing the work and were able to finish what was asked within the desired time.",
   },
