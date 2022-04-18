@@ -28,7 +28,7 @@ const ServiceCard = (props) => {
               sx={{ width: "100%", height: 190 }}
               component="img"
               image={ServiceGradImg}
-              alt="CardImage"
+              alt={props.alt}
             />
 
             <div

@@ -28,7 +28,7 @@ const TestimonialCard = (props) => {
           marginLeft: { md: 3 },
         }}
         image={data.image}
-        alt="logo"
+        alt="avatar"
       />
       <CardContent
         sx={{

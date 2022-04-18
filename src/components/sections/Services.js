@@ -44,6 +44,7 @@ const Services = () => {
                 image={service.image}
                 description={service.description}
                 skills={service.skills}
+                alt={service.alt}
               />
             ))}
           </Grid>
