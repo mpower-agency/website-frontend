@@ -30,7 +30,7 @@ const Introduction = () => {
           elevation: 0,
           square: true,
           pt: 16,
-          pb: 3,
+          pb: 8,
         }}
       >
         <Grid
@@ -72,23 +72,24 @@ const Introduction = () => {
                 Ideas to Reality
               </Typography>
               <Typography
-                variant="text"
+                variant="text1"
                 align="left"
                 color="secondary.contrastText"
                 component="p"
               >
-                Eqaim helps start-ups and businesses in translating your ideas
+                Eqaim helps start-ups and businesses in translating their ideas
                 into reality by providing modern tech solutions.
               </Typography>
 
               <Button
-                variant="text"
+                variant="text3"
                 sx={[
                   { borderRadius: "6px" },
                   { boxShadow: 4 },
                   { textTransform: "capitalize" },
                   { my: 4, mx: 1 },
-                  { bgcolor: "white" },
+                  { bgcolor: "white" ,
+                    color: "primary.main"},
                   {
                     "&:hover": {
                       color: "primary.contrastText",
@@ -98,7 +99,7 @@ const Introduction = () => {
                 ]}
                 onClick={() => scrollToContactUs(-50)}
               >
-                <Typography variant="buttons" noWrap>
+                <Typography variant="text3" noWrap>
                   Let's Connect
                 </Typography>
               </Button>

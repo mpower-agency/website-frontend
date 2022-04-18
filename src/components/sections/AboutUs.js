@@ -30,7 +30,7 @@ const Services = () => {
             About Us
           </Typography>
 
-          <Typography variant="text" align="center">
+          <Typography variant="text1" align="center">
             We at Eqaim focus on developing tech solutions for customers across
             the globe. We help startups and businesses in early stage looking
             for tech support so that they can focus on core business and leave

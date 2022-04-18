@@ -11,7 +11,7 @@ const ContactUs = () => {
   return (
     <React.Fragment>
       <ThemeProvider theme={theme}>
-        <Container id="Contact" fixed sx={{ pt: 8, pb: 3 }}>
+        <Container id="Contact" fixed sx={{ pt: 6, pb: 3 }}>
           <Grid container>
             <Grid
               item
@@ -26,20 +26,22 @@ const ContactUs = () => {
               }}
             >
               <Box>
-                <Box>
+                <Box sx={{alignItems: "center"}}>
                   <Typography
+                    align="center"
                     color={theme.palette.primary.main}
                     component="h1"
                     variant="h1"
+                    sx={{ pb: 3 }}
                   >
                     Contact Us
                   </Typography>
                 </Box>
                 <Box paddingRight={2}>
-                  <Typography variant="text" component="h4" color="black">
-                    You have questions and want to discuss?
+                  <Typography variant="text1"  align="center" component="h4" color="black">
+                    Do you have questions and want to discuss?
                   </Typography>
-                  <Typography variant="text" component="h4" color="black">
+                  <Typography variant="text1"  align="center" component="h4" color="black">
                     We’d love to hear from you!
                   </Typography>
                 </Box>

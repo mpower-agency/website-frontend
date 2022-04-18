@@ -109,7 +109,7 @@ const ContactUsForm = () => {
           sx={{
             mt: 3,
             mb: 2,
-            marginX: { xs: 1, md: 10, lg: 20 },
+            marginX: { xs: 2, md: 10, lg: 20 },
             bgcolor: "primary.main",
             "&:hover": {
               color: "primary.contrastText",
@@ -119,7 +119,7 @@ const ContactUsForm = () => {
           }}
         >
           <Typography
-            variant="buttons"
+            variant="text3"
             component="h2"
             color="primary.contrastText"
             noWrap

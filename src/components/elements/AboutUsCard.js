@@ -36,7 +36,7 @@ const AboutUsCard = (props) => {
             component="img"
             image={props.image}
             height="180"
-            alt="CardImage"
+            alt={props.name}
           />
           <CardContent
             sx={{
@@ -54,7 +54,7 @@ const AboutUsCard = (props) => {
             >
               <Typography
                 gutterBottom
-                variant="name"
+                variant="text2"
                 color="primary.main"
                 component="div"
                 align="center"
@@ -65,9 +65,10 @@ const AboutUsCard = (props) => {
 
               <Typography
                 gutterBottom
-                variant="h4"
+                variant="sub"
                 color="text.secondary"
                 align="center"
+                sx={{ fontWeight: "bold" }}
               >
                 {props.subtitle}
               </Typography>

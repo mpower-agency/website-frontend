@@ -32,6 +32,7 @@ function Footer() {
             sx={{
               pt: 4,
               px: 2,
+              pb: 4,
               mt: "auto",
             }}
           >
@@ -55,7 +56,7 @@ function Footer() {
                   </Button>
 
                   <Typography
-                    variant="h4"
+                    variant="sub"
                     component="h5"
                     gutterBottom
                     sx={{ fontWeight: "medium" }}
@@ -65,7 +66,7 @@ function Footer() {
                     bold ideas into reality.
                   </Typography>
                   <Typography
-                    variant="h4"
+                    variant="sub"
                     component="h5"
                     sx={{ fontWeight: "medium" }}
                     color="white"
@@ -78,29 +79,30 @@ function Footer() {
               <Grid item xs={12} md={4}>
                 <Box sx={{ width: 350, py: 2, px: 5, margin: "auto" }}>
                   <Typography
-                    variant="h3"
+                    variant="text2"
                     align="left"
                     component="h4"
                     gutterBottom
                     color="white"
+                    sx={{ fontWeight: "bold" }}
                   >
                     Contact Us
                   </Typography>
 
                   <Typography
-                    variant="h4"
+                    variant="sub"
                     component="h5"
                     color="white"
-                    sx={{ fontWeight: "medium" }}
+                    gutterBottom
                   >
                     contact.eqaim@gmail.com
                   </Typography>
                   <Typography
                     gutterBottom
-                    variant="h4"
+                    variant="sub"
                     component="h5"
                     color="white"
-                    sx={{ fontWeight: "medium" }}
+                    
                   >
                     +91-9522557263
                   </Typography>
