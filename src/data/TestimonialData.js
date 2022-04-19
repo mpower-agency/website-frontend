@@ -4,7 +4,7 @@ const testimonialData = [
     client: "Will Humphreys, CTO, Primelab (USA)",
     image: require("../assets/icons/test_pic_1.png"),
     testimonial:
-      "The team was proactive in their service and helped us sail through ups and down in our journey. A long term partnership worthy team. I would highly recommend them for anyone building digital platform.",
+      "The team was proactive in their service and helped us sail through ups and downs in our journey. A long term partnership worthy team. I would highly recommend them for anyone building digital platform.",
   },
   {
     number: 2,
