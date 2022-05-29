@@ -4,7 +4,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "../../theme";
 import Button from "@mui/material/Button";
 import HeadersData from "../../data/HeadersData";
-import BrandLogo from "../../assets/images/brand.svg";
+import BrandLogo from "../../assets/images/eqaim_logo.svg";
 import { Link, scroller } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, NavbarBrand, Collapse, Nav, NavbarToggler } from "reactstrap";
@@ -32,11 +32,11 @@ export default function Header() {
             sx={[
               { borderRadius: "6px" },
               { textTransform: "capitalize" },
-              { my: 1, mr: 3, ml:2.5 },
+              { my: 1, mr: 3, ml: 2.5 },
               { bgcolor: "primary.main" },
               { color: "primary.contrastText" },
               { typography: "text2" },
-              {fontWeight: "bold" },
+              { fontWeight: "bold" },
               {
                 "&:hover": {
                   color: "primary.contrastText",
@@ -45,7 +45,7 @@ export default function Header() {
                 },
               },
             ]}
-            onClick={() => scrollTo( -50,"Contact")}
+            onClick={() => scrollTo(-50, "Contact")}
           >
             <Link
               to={element.label}
@@ -69,7 +69,7 @@ export default function Header() {
               "&:hover": {
                 color: "primary.main",
               },
-              fontWeight: "bold"
+              fontWeight: "bold",
             }}
             component="button"
             underline="hover"
@@ -97,7 +97,7 @@ export default function Header() {
       <div>
         <Navbar color="white" expand="md" light fixed="top" className="pb-1">
           <NavbarBrand onClick={() => scrollTo(-100, "Home")}>
-            <Button variant="text" sx={{ml:3}}>
+            <Button variant="text" sx={{ ml: 3 }}>
               <img src={BrandLogo} className="align-top" alt="eqaim" />
             </Button>
           </NavbarBrand>

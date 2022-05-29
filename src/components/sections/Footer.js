@@ -7,7 +7,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import FooterIcons from "../elements/FooterIcons";
 import FooterLinks from "../elements/FooterLinks";
-import BrandLogo from "../../assets/images/brand-white.svg";
+import BrandLogo from "../../assets/images/eqaim_logo_dark.svg";
 import { scroller } from "react-scroll";
 import { Paper, Button } from "@mui/material";
 
