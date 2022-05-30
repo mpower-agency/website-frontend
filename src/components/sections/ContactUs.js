@@ -11,7 +11,7 @@ const ContactUs = () => {
   return (
     <React.Fragment>
       <ThemeProvider theme={theme}>
-        <Container id="Contact" fixed sx={{ pt: 6, pb: 3 }}>
+        <Container id="Contact" fixed sx={{ pt: 6 }}>
           <Grid container>
             <Grid
               item

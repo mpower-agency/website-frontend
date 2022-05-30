@@ -71,7 +71,7 @@ function Footer() {
                     sx={{ fontWeight: "medium" }}
                     color="white"
                   >
-                    mPower Pvt. Ltd.
+                    eqaim Technology & Services.
                   </Typography>
                 </Box>
               </Grid>

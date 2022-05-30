@@ -19,8 +19,8 @@ function App() {
         <Introduction />
         <Services />
         <Testimonials />
-        <AboutUs />
         <ContactUs />
+        <AboutUs />
         <Footer />
       </React.Fragment>
     </div>
