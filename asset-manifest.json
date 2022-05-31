@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website-frontend/static/css/main.fd562c0d.css",
-    "main.js": "/website-frontend/static/js/main.6c726847.js",
+    "main.js": "/website-frontend/static/js/main.c6b6c68a.js",
     "static/js/787.eb3da103.chunk.js": "/website-frontend/static/js/787.eb3da103.chunk.js",
     "static/media/SamhithPhoto.png": "/website-frontend/static/media/SamhithPhoto.68a99ae544d5ca4b6853.png",
     "static/media/BlueSkies.jpg": "/website-frontend/static/media/BlueSkies.cf2aa815ef14bffb18b5.jpg",
@@ -16,18 +16,18 @@
     "static/media/test_pic_3.png": "/website-frontend/static/media/test_pic_3.81e6ea155ce9f58e3df8.png",
     "static/media/web.png": "/website-frontend/static/media/web.7a4c05ffd4980a4cbafc.png",
     "static/media/AmanPhoto.jpg": "/website-frontend/static/media/AmanPhoto.024c331bd1fd295b0a1c.jpg",
-    "static/media/eqaim_logo.svg": "/website-frontend/static/media/eqaim_logo.5c38d5ec9a220bea9d546fa04acd54df.svg",
+    "static/media/eqaim_logo.svg": "/website-frontend/static/media/eqaim_logo.7931af7c1cc14118a5440d37a7e4de86.svg",
     "static/media/slick.svg": "/website-frontend/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/website-frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/website-frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/website-frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/website-frontend/index.html",
     "main.fd562c0d.css.map": "/website-frontend/static/css/main.fd562c0d.css.map",
-    "main.6c726847.js.map": "/website-frontend/static/js/main.6c726847.js.map",
+    "main.c6b6c68a.js.map": "/website-frontend/static/js/main.c6b6c68a.js.map",
     "787.eb3da103.chunk.js.map": "/website-frontend/static/js/787.eb3da103.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd562c0d.css",
-    "static/js/main.6c726847.js"
+    "static/js/main.c6b6c68a.js"
   ]
 }
