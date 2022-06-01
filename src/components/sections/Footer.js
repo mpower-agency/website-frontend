@@ -7,7 +7,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import FooterIcons from "../elements/FooterIcons";
 import FooterLinks from "../elements/FooterLinks";
-import BrandLogo from "../../assets/images/brand-white.svg";
+import BrandLogo from "../../assets/images/eqaim_logo.svg";
 import { scroller } from "react-scroll";
 import { Paper, Button } from "@mui/material";
 
@@ -60,7 +60,7 @@ function Footer() {
                     component="h5"
                     gutterBottom
                     sx={{ fontWeight: "medium" }}
-                    color="white"
+                    color={theme.palette.footer.contrastText}
                   >
                     Eqaim is a tech service company with a vision to bring your
                     bold ideas into reality.
@@ -69,9 +69,9 @@ function Footer() {
                     variant="sub"
                     component="h5"
                     sx={{ fontWeight: "medium" }}
-                    color="white"
+                    color={theme.palette.footer.contrastText}
                   >
-                    mPower Pvt. Ltd.
+                    eqaim Technology & Services.
                   </Typography>
                 </Box>
               </Grid>
@@ -83,7 +83,7 @@ function Footer() {
                     align="left"
                     component="h4"
                     gutterBottom
-                    color="white"
+                    color={theme.palette.footer.contrastText}
                     sx={{ fontWeight: "bold" }}
                   >
                     Contact Us
@@ -92,7 +92,7 @@ function Footer() {
                   <Typography
                     variant="sub"
                     component="h5"
-                    color="white"
+                    color={theme.palette.footer.contrastText}
                     gutterBottom
                   >
                     contact.eqaim@gmail.com
@@ -101,7 +101,7 @@ function Footer() {
                     gutterBottom
                     variant="sub"
                     component="h5"
-                    color="white"
+                    color={theme.palette.footer.contrastText}
                     
                   >
                     +91-9522557263

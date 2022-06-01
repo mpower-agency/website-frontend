@@ -17,7 +17,7 @@ const FooterLinks = () => {
           align="left"
           component="h4"
           gutterBottom
-          color="white"
+          color={theme.palette.footer.contrastText}
           sx={{fontWeight:"bold"}}
         >
           Links
@@ -31,7 +31,7 @@ const FooterLinks = () => {
                   sx={[
                     {
                       fontWeight: "medium",
-                      color: "white",
+                      color: theme.palette.footer.contrastText,
                     },
                   ]}
                   component="button"

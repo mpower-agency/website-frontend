@@ -2,7 +2,7 @@ const SocialMediaData = {
 
     linkedin: {
        
-        url: "https://www.linkedin.com/in/eqaim-tech-services"
+        url: "https://www.linkedin.com/company/eqaim"
     },
     facebook:{
        
