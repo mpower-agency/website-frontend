@@ -15,7 +15,7 @@ const AboutUsCard = (props) => {
       <Grid item>
         <Card
           sx={{
-            width: 320,
+            width: 300,
             boxShadow: 2,
             borderRadius: "3%",
             "&:hover": {
@@ -35,7 +35,7 @@ const AboutUsCard = (props) => {
             }}
             component="img"
             image={props.image}
-            height="180"
+            height="160"
             alt={props.name}
           />
           <CardContent

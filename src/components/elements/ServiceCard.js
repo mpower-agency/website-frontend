@@ -8,7 +8,7 @@ import Button from "@mui/material/Button";
 import theme from "../../theme";
 import { ThemeProvider } from "@mui/material/styles";
 
-import ServiceGradImg from "../../assets/images/Lush.jpg";
+import ServiceGradImg from "../../assets/images/BlueSkies.jpg";
 
 const ServiceCard = (props) => {
   return (

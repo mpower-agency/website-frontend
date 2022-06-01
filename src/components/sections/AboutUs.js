@@ -17,7 +17,8 @@ const Services = () => {
             display: "flex",
             flexDirection: "column",
             square: true,
-            pt: 8,
+            pt: 6,
+            pb: 6
           }}
         >
           <Typography
