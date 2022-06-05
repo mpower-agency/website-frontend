@@ -95,7 +95,7 @@ function Footer() {
                     color={theme.palette.footer.contrastText}
                     gutterBottom
                   >
-                    contact.eqaim@gmail.com
+                    contact@eqaim.com
                   </Typography>
                   <Typography
                     gutterBottom
