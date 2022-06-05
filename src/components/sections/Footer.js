@@ -104,7 +104,7 @@ function Footer() {
                     color={theme.palette.footer.contrastText}
                     
                   >
-                    +91-9522557263
+                    +91-9910477751
                   </Typography>
 
                   <FooterIcons />
