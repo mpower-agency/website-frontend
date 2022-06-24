@@ -8,15 +8,17 @@ const testimonialData = [
   },
   {
     number: 2,
-    client: "David Hutchkins, Upwork Client",
+    client: "David Hutchkins, PhD Research Scholar (United Kingdom)",
     image: require("../assets/icons/test_pic_2.png"),
-    testimonial: "The Team was prompt, courteous and acted with great integrity from the start to end of the contract. It was a pleasure discussing matters with them and I would have no hesitation to work with them again in future.",
+    testimonial:
+      "The Team was prompt, courteous and acted with great integrity from the start to end of the contract. It was a pleasure discussing matters with them and I would have no hesitation to work with them again in future.",
   },
   {
     number: 3,
-    client: "Karthikeya Reddy, Upwork Client",
+    client: "Omer Levi, Math Games - Learn Math App (Israel)",
     image: require("../assets/icons/test_pic_3.png"),
-    testimonial: "The Team did a good job on NLP task. They were flexible in discussing the work and were able to finish what was asked within the desired time.",
+    testimonial:
+      "I love working this team. They are very professional, quick, creative and as well they respond very fast. In our communication, we work on my mobile app which involves a lot of javascript and math skills, including pure javascript, React.js and specifically React Native. They are doing it in a perfect manner, and I'm very glad that they work for me.",
   },
 ];
 export default testimonialData;
